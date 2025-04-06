@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    color: white;
+    padding: 30px 50px ;
+    width: 100%;
+    height: 100vh;
+    background: rgb(190,92,185);
+    background: linear-gradient(27deg, rgba(190,92,185,1) 1%, rgba(121,151,196,1) 15%, rgba(64,151,204,1) 50%, rgba(27,230,193,1) 95%, rgba(0,255,180,1) 100%, rgba(44,213,214,1) 100%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h2{
+    font-weight:40;
+}
+
+.nav-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size:10px;
+    font-weight:390;
+}
+.new-2 h2{
+    color: black;
+}
+.nav-2 ul{
+    display: flex;
+    gap: 10px;
+}
+.nav-2 ul li{
+    cursor: pointer;
+    list-style: none;
+}
+.nav-2 button {
+    padding:5px 10px;
+    font-size:10px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.main2{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top:55px;
+}
+.new-1{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+   
+.new-1 h1{
+    font-size: 40px;
+    font-weight: 20;
+}
+.new-1 p{
+    font-size: 10px;
+    line-height: 18px;
+
+
+}
+.new-1 button{
+    background-color: rgb(19, 214, 12);
+    border-radius:30px;
+    width: fit-content;
+    border: none;
+    color: white;
+    padding: 6px 30px;
+    
+}
+.new-2{
+    border-radius: 3px;
+    background: white;
+    padding:20px 20px 30px 20px;
+
+    display:flex;
+flex-direction: column;
+gap:8px;
+justify-content:center;
+align-items: center;
+}
+.new-2 h2{
+    font-size:17px;
+
+    
+}
+.new-2 input{
+    background-color: rgba(227, 214, 214, 0.955);
+    width:250px;
+    height:30px;
+    padding-left: 5px;
+    border:none;
+
+
+}
+.new-2 select{
+    background-color: rgba(227, 214, 214, 0.955);
+    width:250px;
+    height:30px;
+    padding-left: 5px;
+    border:none;
+}
+.new-2 button{
+    background-color: blue;
+    border-radius: 20px;
+    width:250px;
+    height:30px;
+    border:none;
+    color:white;
+    cursor: pointer;
+
+}
+
+
+
+

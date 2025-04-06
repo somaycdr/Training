@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style>
+        
+                .container {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 8px;
+            width:100%;
+            text-align: center;
+            
+        }
+        .tabs {
+            display: flex;
+            justify-content: space-between;
+            background-color: aliceblue;
+            border-top-right-radius: 30%;
+        }
+       
+        
+        .active {
+            background-color:   rgb(27, 154, 114);
+            color: white;
+        }
+        h2 {
+            color: white;
+            margin: 20px 0;
+            text-align: center;
+        }
+        input {
+            width: 30%;
+            padding: 8px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+        }
+        .btn {
+            background-color:rgb(27, 154, 114);
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            margin-top: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="tabs">
+        <div class="tab active">Sign Up</div>
+        <div class="tab">Log In</div>
+    </div>
+    
+    <h2>Sign Up for Free</h2>
+    <br>
+        
+        <input type="text" placeholder="first name*" required>
+        
+        <input type="text" placeholder="last name*" required>
+        <br>
+        <input type="email" placeholder="email address*" required>
+</br>
+        <input type="password" placeholder="set a password*" required>
+        <button class="btn">GET STARTED</button>
+
+
+</body>
+</html>
